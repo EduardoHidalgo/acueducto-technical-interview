@@ -4,8 +4,10 @@
     "type": "module",
     "version": "0.0.0",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build"
+        "dev": "php artisan serve",
+        "build": "php artisan serve",
+        "test": "php artisan test",
+        "db:seed": "php artisan seed"
     },
     "devDependencies": {
         "axios": "^1.1.2",
