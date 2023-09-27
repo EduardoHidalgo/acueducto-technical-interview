@@ -6,8 +6,9 @@
     "scripts": {
         "dev": "php artisan serve",
         "build": "php artisan serve",
-        "test": "php artisan test",
-        "db:seed": "php artisan seed"
+        "test": "php artisan test --parallel",
+        "db:seed": "php artisan seed",
+        "db:migrate": "php artisan migrate:fresh"
     },
     "devDependencies": {
         "axios": "^1.1.2",
